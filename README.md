@@ -1,11 +1,11 @@
 # **Carpool App**
 
 <div style="display: flex; justify-content: space-between; align-items: center; background: white; height: 2.2rem; padding: 0.7rem 0.5rem; border-radius: 0.3rem;">
- <img src="./readme-imgs/mongo.png" alt="MongoDB" title="MongoDB" style=""/>
- <img src="./readme-imgs/express.png" alt="Express JS" title="Express JS" style=""/>
- <img src="./readme-imgs/react.png" alt="React Native" title="React Native" style=""/>
- <img src="./readme-imgs/vue.png" alt="Vue.js" title="Vue.js" style=""/>
- <img src="./readme-imgs/node.png" alt="Node.js" title="Node.js" style=""/>
+ <img src="./readme-imgs/mongo.png" alt="MongoDB" title="MongoDB" style="height: 2.2rem;"/>
+ <img src="./readme-imgs/express.png" alt="Express JS" title="Express JS" style="height: 2.2rem;"/>
+ <img src="./readme-imgs/react.png" alt="React Native" title="React Native" style="height: 2.2rem;"/>
+ <img src="./readme-imgs/vue.png" alt="Vue.js" title="Vue.js" style="height: 2.2rem;"/>
+ <img src="./readme-imgs/node.png" alt="Node.js" title="Node.js" style="height: 2.2rem;"/>
 </div>
 
 ---
