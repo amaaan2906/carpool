@@ -1,6 +1,6 @@
 # **Carpool App**
 
-<div style="display: flex; justify-content: space-between; align-items: center; background: white; height: 2.2rem; padding: 0.7rem 0.5rem; border-radius: 0.3rem;">
+<div align="center" style="display: flex; justify-content: space-between; align-items: center; background: white; padding: 0.7rem 0.5rem; border-radius: 0.3rem;">
  <img src="./readme-imgs/mongo.png" alt="MongoDB" title="MongoDB" style="height: 2.2rem;"/>
  <img src="./readme-imgs/express.png" alt="Express JS" title="Express JS" style="height: 2.2rem;"/>
  <img src="./readme-imgs/react.png" alt="React Native" title="React Native" style="height: 2.2rem;"/>
@@ -38,7 +38,7 @@ Takes less than 5 mins to start using:
 ## Progress
 
 - [ ] Create user model for db
-- [ ] Setup user auth
+- [ ] Finish setting up user auth
 - [ ] Add university email validation
 - [ ] Add email verification
   - generate random alpha-numeric string of length 5
