@@ -1,11 +1,40 @@
 # **Carpool App**
 
-<div align="center" style="display: flex; justify-content: space-between; align-items: center; background: white; padding: 0.7rem 0.5rem; border-radius: 0.3rem;">
- <img src="./readme-imgs/mongo.png" alt="MongoDB" title="MongoDB" style="height: 2.2rem;"/>
- <img src="./readme-imgs/express.png" alt="Express JS" title="Express JS" style="height: 2.2rem;"/>
- <img src="./readme-imgs/react.png" alt="React Native" title="React Native" style="height: 2.2rem;"/>
- <img src="./readme-imgs/vue.png" alt="Vue.js" title="Vue.js" style="height: 2.2rem;"/>
- <img src="./readme-imgs/node.png" alt="Node.js" title="Node.js" style="height: 2.2rem;"/>
+## Progress
+
+- [ ] Create user model for db
+- [ ] Finish setting up user auth
+- [ ] Add university email validation
+- [ ] Add email verification
+  - generate random alpha-numeric string of length 5
+  - save string and email in db with expiration time (5mins)
+  - email js to send verification code
+  - change user status to verified upon entering the string for their account
+  - allow user to resend a new code every 5 mins
+- [ ] Create ride model for db
+  - organizing user
+  - origin university
+  - departure location (should be close to university)
+  - time of departure
+  - destination
+  - number of passengers
+  - price/passenger (est. gas price per person in car should be included in price)
+  - array of passengers
+- [ ] create a ride
+  - limited number of posted rides per user
+- [ ] join a ride
+  - send request to ride organizer to join
+  - organizer can approve or deny
+  - if approved, add user to ride
+
+---
+
+<div markdown="1" align="center" style="display: flex; justify-content: space-between; align-items: center; background: white; border-radius: 4px; padding: 10px 7px;">
+ <img src="./readme-imgs/mongo.png" alt="MongoDB" title="MongoDB" style="height: 30px;"/>
+ <img src="./readme-imgs/express.png" alt="Express JS" title="Express JS" style="height: 30px;"/>
+ <img src="./readme-imgs/react.png" alt="React Native" title="React Native" style="height: 30px;"/>
+ <img src="./readme-imgs/vue.png" alt="Vue.js" title="Vue.js" style="height: 30px;"/>
+ <img src="./readme-imgs/node.png" alt="Node.js" title="Node.js" style="height: 30px;"/>
 </div>
 
 ---
@@ -35,29 +64,6 @@ Takes less than 5 mins to start using:
 [guidelinelink]: https://link.here/to/guidelines
 [supportedunis]: https://link.here/to/supported/unis
 
-## Progress
+## 3. Images
 
-- [ ] Create user model for db
-- [ ] Finish setting up user auth
-- [ ] Add university email validation
-- [ ] Add email verification
-  - generate random alpha-numeric string of length 5
-  - save string and email in db with expiration time (5mins)
-  - email js to send verification code
-  - change user status to verified upon entering the string for their account
-  - allow user to resend a new code every 5 mins
-- [ ] Create ride model for db
-  - organizing user
-  - origin university
-  - departure location (should be close to university)
-  - time of departure
-  - destination
-  - number of passengers
-  - price/passenger (est. gas price per person in car should be included in price)
-  - array of passengers
-- [ ] create a ride
-  - limited number of posted rides per user
-- [ ] join a ride
-  - send request to ride organizer to join
-  - organizer can approve or deny
-  - if approved, add user to ride
+##### coming soon
