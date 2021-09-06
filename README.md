@@ -36,7 +36,7 @@ Takes less than 5 mins to start using:
 
 ## Progress
 
-- [ ] Create user model
+- [ ] Create user model for db
 - [ ] Setup user auth
 - [ ] Add university email validation
 - [ ] Add email verification
@@ -45,11 +45,17 @@ Takes less than 5 mins to start using:
   - email js to send verification code
   - change user status to verified upon entering the string for their account
   - allow user to resend a new code every 5 mins
-- [ ] create a ride
+- [ ] Create ride model for db
+  - created by user
   - origin university
   - departure location (should be close to university)
   - time of departure
-  - ride destination
+  - destination
   - number of passengers
   - price/passenger (est. gas price per person in car should be included in price)
+  - array of passengers
+- [ ] create a ride
 - [ ] join a ride
+  - send request to ride organizer to join
+  - organizer can approve or deny
+  - if approved, add user to ride
